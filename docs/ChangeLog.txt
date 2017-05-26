@@ -1,0 +1,247 @@
+======================================================================================
+- Version 3.8.4 [04.11.2011]
+======================================================================================
+ 1. Feature: [added] new module: FAQ
+ 2. Feature: [added] possibility to recalculate products count for each category via Products Catalog » Products Management » Categories Management 
+ 3. Feature: [added] new module: Newsletter Subscription
+ 4. Feature: [added] possibility to manage roles and privileges for admins
+ 5. Feature: [added] possibility to send emails via SMTP mailer: General -> Site Settings -> Email Settings 
+ 6. Feature: [added] new fields for products: SKU, weight, dimensions
+ 7. Feature: [added] quantity changer withg arrows for shopping cart and product description pages
+ 
+ 1. Feature: [improved] "new products" block style on home page
+ 2. Feature: [improved] "resend activation" email procedure
+ 3. Feature: [improved] minor changes in functionality of Countries class
+ 4. Feature: [improved] minor changes in renaming of product fields
+ 5. Feature: [improved] shopping cart module - added special refund email
+ 
+ 1. Bug: [fixed] &amp; issue in generating of RSS file
+ 2. Bug: [fixed] in calculation of shipping fee when customer's country is not defined in the delivery list
+ 3. Bug: [fixed] error in recalculation shipping fee when customer changes country
+ 4. Bug: [fixed] in calculation of shipping cost
+ 
+
+======================================================================================
+- Version 3.7.3 [03.09.2012]
+======================================================================================
+ 1. Feature: [added] filtering by countries for customers/orders statistics
+ 2. Feature: [added] possibility for admin to force using of SSL: General -> General Settings
+ 3. Feature: [added] export feature for Categories, Products and Manufactures in Admin Panel
+ 4. Feature: [added] possibility to preview pages from Edit Mode
+ 5. Feature: [added] possibility for admin to send invoices for customers
+ 6. Feature: [added] non-documented "last visited page" feature, turned on in Application.class.php
+ 7. Feature: [added] possibility for admin to change customer password
+ 8. Feature: [added] possibility to specifies the type of order numbers	: random or sequential 
+ 9. Feature: [added] possibility to specifies whether to show number of products in categories link or not
+
+ 1. Feature: [improved] minor changes in BackUp Module
+ 2. Feature: [improved] minor changes in ContactUs Module
+ 3. Feature: [improved] credit card payments - added Card Holder'd Name field
+ 4. Feature: [improved] orders statistics - added calculation of taxes in separate tab
+ 5. Feature: [improved] maximum allowed size of menu link increased to 40 characters
+ 6. Feature: [improved] minor changes in Gallery Module 
+ 7. Feature: [improved] minor changes in sending forgotten password procedure
+ 8. Feature: [improved] minor changes in create account/edit account pages
+ 9. Feature: [improved] language settings - added 'Server Locale' parameter
+
+ 1. Bug: [fixed] on drawing empty shopping cart
+ 2. Bug: [fixed] in printing of Order Description and Invoice for RTL languages
+ 3. Bug: [fixed] wrong redirect when empty parameters on "Order Proccess" page
+
+
+======================================================================================
+- Version 3.6.0 [08.09.2011]
+======================================================================================
+ 1. Feature: [added] possibility to define and show on Home Page featured products
+ 2. Feature: [added] new payment processing company - Authorize.Net
+
+ 1. Feature: [improved] Shopping Cart calculation procedure
+ 2. Feature: [improved] working with displaying local datetime
+ 3. Feature: [improved] Additional Info field moved to checkout page
+
+ 1. Bug: [fixed] in calculation of payment in payment processing files
+ 
+
+======================================================================================
+- Version 3.5.3 [04.09.2011]
+======================================================================================
+ 1. Feature: [added] possibility to resend activation email for new customer
+ 2. Feature: [added] possibility to preview cart from admin panel
+ 3. Feature: [added] possibility to define placement of Categories and Manufacturers blocks via admin panel
+ 4. Feature: [added] possibility to define View Prices Customer Level via Modules -> Shopping Cart Settings 
+ 5. Feature: [added] new order type - Refunded
+ 6. Feature: [added] new language translation - German
+ 7. Feature: [added] possibility to manage delivery types and define shipping fee by countries 
+ 8. Feature: [added] possibility to define placement of News block via Modules -> News Settings
+ 
+ 1. Feature: [improved] PayPal submission form - added automatically showing customer info
+ 2. Feature: [improved] caching procedure for News pages
+ 3. Feature: [improved] Inventory Control - administrator may turn it on/off via Modules -> Shopping Cart Settings
+ 4. Feature: [improved] procedure algorithm against CSRF Attacks
+ 5. Feature: [improved] Gallery module - added possibility to de create image/video albums
+ 6. Feature: [improved] products info - added new field "date of addition" to catalog
+ 7. Feature: [improved] design for Categories Block on Home Page
+ 8. Feature: [improved] email content for customer - added block for billing info
+ 9. Feature: [improved] discount campaigns for one day only drawing
+
+ 1. Bug: [fixed] in calculating of products count in sub-categories
+ 2. Bug: [fixed] in drawing error message for not existing page or news
+ 3. Bug: [fixed] in drawing purchased products for custpmer on My Products page
+
+
+======================================================================================
+- Version 3.4.7 [07.08.2011]
+======================================================================================
+ 1. Feature: [added] possibility to update vocabulary from the language file
+ 2. Feature: [added] customer block for registration and comments by IP and email
+ 3. Feature: [added] possibility to define Cron Jobs : Batch/Non-batch
+ 4. Feature: [added] possibility to define American/European money format via General -> Settings -> Price Format
+ 5. Feature: [added] possibility to search in News
+ 6. Feature: [added] possibility to define via Products Catalog -> Catalog Settings number of products that could be displayed on page
+ 7. Feature: [added] possibility to define via Products Catalog -> Catalog Settings displaying of Manufacturers side block
+ 8. Feature: [added] possibility to define view type for Manufacturers: dropdown box or list
+
+ 1. Feature: [improved] caching feature
+ 2. Feature: [improved] admins management page
+ 3. Feature: [improved] Securimage  module updated to v.2.0 BETA
+ 4. Feature: [improved] JavaScript function syntax - added prefix "app"
+ 5. Feature: [improved] removing of customer account procedure
+ 6. Feature: [improved] Action Required feature for Home Page in Admin Panel
+ 7. Feature: [improved] General -> Visual Settings - added possibility to apply changes to all pages 
+ 8. Feature: [improved] datetime formatting for all pages via General -> Visual Settings [Date Format:]
+ 9. Feature: [improved] creating RSS file
+ 
+ 1. Bug: [fixed] on installation with magic_quotes_gpc turned 'On'
+ 2. Bug: [fixed] on drawing news page with empty parameters
+ 3. Bug: [fixed] blocked possibility to delete category that still includes products or sub-categories
+ 4. Bug: [fixed] in definition of priority order for categories and products
+ 5. Bug: [fixed] in downloading module, when file doesn't exist
+ 6. Bug: [fixed] in drawing currency, when only one currency is active on the site
+ 7. Bug: [fixed] on confirmation of registration by email
+
+
+======================================================================================
+- Version 3.3.0 [18.12.2010]
+======================================================================================
+ 1. Feature: [added] Inventory Control feature
+ 2. Feature: [added] possibility to customer to select delivery type in orders
+ 3. Feature: [added] thumbnails for Categories, Products and Manufacturers
+ 4. Feature: [added] possibility to define whether to send or not order copy to admin: Modules -> Shopping Cart Settings
+ 5. Feature: [added] possibility for Admin to create a run global campaigns via: Shopping Cart -> Campaigns
+ 6. Feature: [added] possibility for Admin to define using of cron jobs file via: General -> Settings -> Cron Jobs
+ 7. Feature: [added] popular search, that shows 20 most popular search words
+ 8. Feature: [added] possibility to customer to view and print invoices
+ 
+ 1. Feature: [improved] possibility to allow/not allow sending copy of order email to admin
+ 2. Feature: [improved] creating SEO links function
+
+
+======================================================================================
+- Version 3.2.4 [25.11.2010]
+======================================================================================
+ 1. Feature: [added] Products Catalog and Shopping Cart modules divided into two modules
+ 2. Feature: [added] Shopping Cart module defined as dependent in Products Catalog module (you may install/activate it only if Products Catalog was installed/activated)
+ 3. Feature: [added] Products pages added to caching
+ 4. Feature: [added] sending notification email to customer, when order status changed to COMPLETED.
+ 5. Feature: [added] sending notification email to customer, when account created by admin
+ 6. Feature: [added] possibility for admin to define VAT/Shipping Fee default value or separately for each country
+ 7. Feature: [added] possibility to create Product Categories upto 3rd level
+ 8. Feature: [added] new status for order: received
+ 9. Feature: [added] possibility for admin to manage manufacturers/suppliers via Product Catalog -> Manufacturers
+10. Feature: [added] possibility for admin to upload digital products and download by customers via My Products -> My Products
+
+ 1. Feature: [improved] Reply-To function in Contact Us emails
+
+ 1. Bug: [fixed] tooltips were not showing for banners
+ 2. Bug: [fixed] in ordering big amounts of products
+ 3. Bug: [fixed] in drawing apostrophes in search result
+ 4. Bug: [fixed] wrong product image resizing on home page
+
+
+======================================================================================
+- Version 3.1.3  [15.10.2010]
+======================================================================================
+ 1. Feature: [added] possibility for admin to define menu access level: for all visitors or for registered only
+ 2. Feature: [added] possibility for admin to define page access level: for all visitors or for registered only
+ 3. Feature: [added] possibility for admin to manage countries list
+ 4. Feature: [added] possibility for admin to view statistics for map overlay, registered, logged users via Accounts -> Statistics
+ 5. Feature: [added] possibility for admin to create order via Admin Panel: Shopping Cart -> Orders [Create Order]
+ 5. Feature: [added] possibility for admin to add/edit and manage email templates via Admin Panel: Mass Mail & Templates -> Email Templates
+ 6. Feature: [added] possibility for admin to send mass mail: Mass Mail & Templates -> Mass Mail
+ 7. Feature: [added] possibility for admin to translate header text , footer text, slogan and meta tags
+ 8. Feature: [added] possibility of pre-moderation of comments for admin via Modules -> Comments Settings 
+ 9. Feature: [added] WYSIWYG editor for products pages
+
+ 1. Feature: [improved] SEO links: added products, categories and new pages.
+ 2. Feature: [improved] minor changes in settings of User Module
+ 3. Feature: [improved] minor changes in home page for admin and user accounts
+ 4. Feature: [improved] in order processing code added sending copy of order notification email to admin
+ 5. Feature: [improved] optimized SEO links function
+ 6. Feature: [improved] server info in General -> Site Settings
+ 7. Feature: [improved] orders statistics: added orders amount, income and orders map overlay
+ 8. Feature: [improved] CSS styling for RTL languages
+ 9. Feature: [improved] site styles renamed in templates and added xml description for each template
+10. Feature: [improved] possibility to change language and currency - now it stays on the same page
+
+ 1. Bug: [fixed] displaying currency position (left, right) if Admin Panel
+ 2. Bug: [fixed] in sending confirmation order email for PayPal orders
+ 3. Bug: [fixed] in displaying order description in Admin Panel
+
+
+======================================================================================
+- Version 3.0.7 [26.09.2010]
+======================================================================================
+ 1. Feature: [added] shopping cart block at the top of the site
+ 2. Feature: [added] possibility to define preferred language for admin
+ 3. Feature: [added] new type of administrators: owner
+ 4. Feature: [added] new Tabs: Site Info and ServerInfo in Admin Panel Settings
+ 5. Feature: [added] possibility define time delay between sending emails in ContactUs Module
+ 6. Feature: [added] new statuses for order: paid, shipped, completed
+ 7. Feature: [added] possibility for User to remove his account
+ 8. Feature: [added] possibility for Admin to switch site offline
+ 9. Feature: [added] possibility to define image verification in ContactUs module
+10. Feature: [added] possibility to define and change page order via Admin Panel :: Pages Management -> Edit Pages
+
+1. Feature: [improved] minor changes in CSS styles
+
+1. Bug: [fixed] in editing vacabulary keys
+2. Bug: [fixed] on first adding product to cart, was added amount + 1
+3. Bug: [fixed] in creating new account with md5 encryption
+4. Bug: [fixed] in editing default language: wrong is_active value
+5. Bug: [fixed] in preparing text for RSS news for non-english languages
+6. Bug: [fixed] re-creating wrong user password for MD5 encryption
+7. Bug: [fixed] in password updating from user account
+
+======================================================================================
+- Version 2.0.1 [24.04.2010]
+======================================================================================
+1. Feature: [added] new module: Users
+2. Feature: [added] new types for RSS: RSS1, RSS2 or Atom
+3. Feature: [added] search possibility
+4. Feature: [added] possibility to use AES and MD5 passwords encryption for admins users
+5. Feature: [added] categories and products module
+6. Feature: [added] shopping module
+7. Feature: [added] currency module
+
+1. Feature: [improved] if 1 language only - flag not shown
+
+1. Bug: [fixed] on re-writing vocabulary words with apostrophes
+
+
+======================================================================================
+- Version 2.0.0 [28.02.2010]
+======================================================================================
+ 1. Feature: [added] new default CSS template
+ 2. Feature: [added] custom meta tags for each page
+ 3. Feature: [added] collapsable menu in Admin Panel
+ 4. Feature: [added] new module: Gallery
+ 5. Feature: [added] new module: Contact Us
+ 6. Feature: [added] new page type: "Link"
+ 7. Feature: [added] trash page and possibility to restore trashed page
+ 8. Feature: [added] possibility to save/publish page
+ 9. Feature: [added] new module: Comments for pages
+
+ 1. Feature: [improved] settings page in admin panel: divided into 3 tabs
+ 
+ 1. Bug: [fixed] on installation and restoring backup
+ 2. Bug: [fixed] syntax error in languages_add.php and other files

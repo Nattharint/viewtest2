@@ -1,0 +1,16 @@
+/* --- LEFT COLUMN ---------------------- */
+#navColumnLeftWrapper H3.side_box_heading { background-position:right top; background-image:url(../images/heading-bg-rtl.gif); background-repeat:no-repeat; background-color:#e9e9e9; text-align:right; }
+#navColumnLeftWrapper { margin:auto; margin-left:0px; margin-right:8px; color:#4b4b4b; width:220px; }
+
+/* --- NAV COLUMN ---------------------- */
+#navColumnIcon  { vertical-align:top; background-color:#eceded; padding-top:14px;}
+#imgCollapse	{ position:absolute; margin-right:-19px; border:0px; cursor:pointer; }
+#imgExpand 		{ display:none; margin-right:3px; margin-left:0px; border:0px; cursor:pointer; }
+
+.site_version   { float:left; width:120px; text-align:left; }
+
+/* --- LEFT COLUMN ---------------------- */
+#navColumnLeftWrapper H3.side_box_heading           {
+	padding:6px 23px 6px 23px; margin:1px; font:bold 13px arial, sans-serif; color:#464646; background-color:#ccc; cursor:pointer;
+    background-position:right top; background-image:url(../images/heading-bg-rtl.gif); background-repeat:no-repeat; background-color:#e9e9e9; text-align:right;
+}

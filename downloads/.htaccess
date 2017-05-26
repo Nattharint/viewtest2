@@ -1,0 +1,4 @@
+<Files ~ "\.(zip|rar|tar|iso)$">
+    Order allow,deny  
+    Deny from all  
+</FILES>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<install version="1.0" type="template">
+    <name>Green Template</name>
+    <creationDate>09/08/2011</creationDate>
+    <lastChangedDate>05/04/2012</lastChangedDate>
+    <author>ApPHP</author>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <copyright>ApPHP</copyright>
+    <license>LGPL</license>	
+    <version>1.0.2</version>
+    <description>ApPHP Shopping Cart Green Template</description>
+    <layout>3 Column Dynamic Layout</layout>
+    <direction>Left-to-Right/Right-to-Left</direction>
+    <icon>images/template_icon.png</icon>
+    <menus>
+        <menu>Left</menu>
+        <menu>Top</menu>
+        <menu>Right</menu>
+        <menu>Bottom</menu>
+    </menus>    
+    <files>        
+        <php>
+            <filename>default.php</filename>
+            <filename>header.php</filename>
+            <filename>footer.php</filename>
+        </php>
+        <css>
+            <filename>css/style.css</filename>
+            <filename>css/styleIE.css</filename>
+        </css>
+        <xml>        
+            <filename>info.xml</filename>
+        </xml>        
+    </files>
+</install>

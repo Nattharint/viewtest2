@@ -1,0 +1,12 @@
+HR { height:1px; padding:0px; margin:5px 0px 3px 0px; border:0px solid #cccccc; color:#ccc; }
+H2.center_box_heading TABLE	{ width:97%; font:bold 15px arial, sans-serif; color:#464646; }
+
+/* --- CATEGORIES SIDE MENU ---------------------- */
+/*UL.tmTree LI { margin:3px 0px; }*/
+
+/* --- PRODUCTS ------------------------ */
+DIV.product_icon        { border:1px solid #dedede; height:120px; margin-bottom:3px; padding:1px; display:table-cell; vertical-align: middle;}
+
+/* --- CATEGORIES ---------------------- */
+DIV.category_icon       { border:1px solid #dedede; height:120px; margin-bottom:3px; padding:1px; display:table-cell; vertical-align: middle;}
+
